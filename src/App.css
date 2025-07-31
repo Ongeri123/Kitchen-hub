@@ -73,3 +73,38 @@
   align-items: center;
   justify-content: center;
 }
+
+.home{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+.heading1{
+ font-size:xx-large;
+ color: green;
+
+}
+
+.variety-container{
+  background-color: orange;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  height: auto;
+  
+}
+.variety img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-left: 20px;
+}
+
+.variety img:hover{
+  width: 100px;
+  height: 100px;
+
+}
