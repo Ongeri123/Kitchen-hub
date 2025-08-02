@@ -12,7 +12,7 @@ const Menu = () => {
   // Effect hook to fetch menu data when component mounts
   useEffect(() => {
     // Fetch menu data from the API
-    fetch('http://localhost:3000/menu')
+    fetch('http://localhost:3000/menuItems')
       .then(res => res.json()) // Parse JSON response
       .then(data => {
         setMenuItems(data); // Update menu items state
