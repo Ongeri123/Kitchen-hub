@@ -29,13 +29,17 @@ function MenuItem({ item, onAddToCart }) {
 
       {/* Price and Add to Cart Button */}
       <div className="flex justify-between items-center">
-        <span className="text-lg font-bold text-green-700">${price}</span>
-        <button
-          onClick={() => onAddToCart(item)}
-          className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-xl transition duration-200"
-        >
-          Add to Cart
-        </button>
+        <span className="text-lg font-bold text-green-700">
+          {price ? `$${price}` : 'Price varies'}
+        </span>
+        {onAddToCart && (
+          <button
+            onClick={() => onAddToCart(item)}
+            className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-xl transition duration-200"
+          >
+            Add to Cart
+          </button>
+        )}
       </div>
     </div>
   );
