@@ -1,3 +1,10 @@
+.main-container{
+  background-image: url('/background6.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+opacity: 0.9;;
+}
 /* Navbar Styles */
 .navbar {
   display: flex;
@@ -24,7 +31,7 @@
   padding: 0;
 }
 
-.nav-link {
+.nav-link, .nav-btn1{
   color: Black;
   font-size: 20px;
   font-weight: bold;
@@ -40,7 +47,7 @@
   gap: 25px;
 }
 
-.nav-btn1, .nav-btn2 {
+.nav-btn2 {
   color: black;
   background-color: orange;
   font-size: 20px;
@@ -65,7 +72,6 @@
   height: 40px;
 }
 
-.nav-btn1:hover, 
 .nav-btn2:hover {
   background-color: white;
   color: #333;
@@ -76,27 +82,115 @@
 
 .home{
   display: flex;
-  flex-direction: column;
-  margin: 0 auto;
+  flex-direction: row;
+  height: 65vh;
   align-items: center;
-  justify-content: center;
-}
-.heading1{
- font-size:xx-large;
- color: green;
- margin-right: 20px;
+  justify-content: space-between;
+  padding: 0 2rem;
 }
 
-h1{
-  margin: 2rem 0;
+.heading1{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 2rem;
 }
+
+.Image-space{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Image-space img{
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.heading1 h1{
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1.1;
+  margin: 0.5rem 0;
+  background: linear-gradient(135deg, #ff6b35, #f7931e, #4caf50);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: 'Arial', sans-serif;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+}
+
+.heading1 h1:nth-child(2){
+  margin-left: 3rem;
+}
+
+.heading1 h1:nth-child(3){
+  margin-left: 1.5rem;
+}
+
+.subtitle{
+  font-size: 1.2rem;
+  color: rgb(44, 43, 43);
+  margin: 1.5rem 0;
+  font-weight: 400;
+}
+
+.cta-button{
+  background-color: #f7931e;
+  color: white;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-top: 1rem;
+  width: 150px;
+}
+
+.cta-button:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(255, 107, 53, 0.3);
+}
+
+.home-footer{
+  background-color: #f7931e;
+  padding: 3rem 2rem;
+  margin-top: 2rem;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: space-around;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-item h3{
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.footer-item p{
+  color: #666;
+  font-size: 1rem;
+}
+
+
 
 .variety-container{
   background-color: orange;
   display: flex;
   flex-direction: row;
   gap: 1rem;
-  margin-top: 40px;
+  /* margin-top: 150px; */
   padding: 20px;
   height: 100%;
   border-radius: 20px;

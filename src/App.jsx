@@ -6,6 +6,7 @@ import Home from './Components/Home'
 
 function App() {
   return (
+    
     <BrowserRouter>
       <Navbar />
       <Routes>
@@ -15,6 +16,7 @@ function App() {
         <Route path='/login' element={<h1>Login</h1>}/>
       </Routes>
     </BrowserRouter>
+  
   )
 }
 
