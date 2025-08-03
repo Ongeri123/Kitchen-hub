@@ -13,29 +13,35 @@ function MenuItem({ item, onAddToCart }) {
   const { name, description, image, price } = item;
 
   return (
-    <div className="menu-item card p-4 rounded-2xl shadow-lg mb-6 bg-white">
+    <div className="menu-item bg-white rounded-2xl shadow-md hover:shadow-xl border border-gray-100 overflow-hidden group">
       {/* Product Image */}
-      <img
-        src={image}
-        alt={name}
-        className="w-full h-48 object-cover rounded-xl mb-3"
-      />
+      <div className="relative overflow-hidden">
+        <img
+          src={image}
+          alt={name}
+          className="w-full h-56 object-cover transition-transform duration-300"
+        />
+        <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-300"></div>
+      </div>
 
-      {/* Product Name */}
-      <h3 className="text-xl font-semibold text-gray-800">{name}</h3>
+      {/* Content Section */}
+      <div className="p-6">
+        {/* Product Name */}
+        <h3 className="text-xl font-bold text-gray-900 mb-2 line-clamp-1">{name}</h3>
 
-      {/* Product Description */}
-      <p className="text-sm text-gray-600 mt-1 mb-3">{description}</p>
+        {/* Product Description */}
+        <p className="text-gray-600 text-sm leading-relaxed mb-4 line-clamp-2">{description}</p>
 
-      {/* Price and Add to Cart Button */}
-      <div className="flex justify-between items-center">
-        <span className="text-lg font-bold text-green-700">${price}</span>
-        <button
-          onClick={() => onAddToCart(item)}
-          className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-xl transition duration-200"
-        >
-          Add to Cart
-        </button>
+        {/* Price and Add to Cart Button */}
+        <div className="flex justify-between items-center pt-2">
+          <span className="text-2xl font-bold text-emerald-600">${price}</span>
+          <button
+            onClick={() => onAddToCart(item)}
+            className="bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-2.5 rounded-full font-medium transition-all duration-200 transform hover:scale-105 shadow-md hover:shadow-lg"
+          >
+            Add to Cart
+          </button>
+        </div>
       </div>
     </div>
   );
