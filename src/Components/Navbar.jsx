@@ -6,7 +6,7 @@ import { faHome, faUtensils, faShoppingCart, faUser } from '@fortawesome/free-so
 
 
 
-function Navbar() {
+function Navbar({ onLoginClick }) {
     return (
         <nav className="navbar">
             <div className='logo'>🍔 MVULE CATERING</div>
@@ -16,7 +16,7 @@ function Navbar() {
             </ul>
             <div className='nav-btns'>
                 <Link to='/orders' className='nav-btn1'><FontAwesomeIcon icon={faShoppingCart} /> Order</Link>
-                <Link to='/login' className='nav-btn2'><FontAwesomeIcon icon={faUser} /></Link>
+                <button onClick={onLoginClick} className='nav-btn2'><FontAwesomeIcon icon={faUser} /></button>
             </div>
             
         </nav>
