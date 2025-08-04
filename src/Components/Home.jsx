@@ -1,18 +1,32 @@
 function Home() {
     return (
-        <div className="home">
-            <div className="heading1">
-                <h1>Healthy &</h1>
-                <h1 style={{padding:'0 120px'}}>Delicious</h1>
-                <h1 style={{padding: '0 30px'}}>Fast Food</h1>
+        <div className="home-container">
+            <div className="home">
+                <div className="heading1">
+                    <h1>Healthy &</h1>
+                    <h1>Delicious</h1>
+                    <h1>Fast Food</h1>
+                    <p className="subtitle">Fresh ingredients, bold flavors, delivered fast</p>
+                    <button className="cta-button">Order Now</button>
+                </div>
+                <div className="Image-space">
+                    <img src="/background7.jpg" alt="food"/>
+                </div>
             </div>
-            <div className="variety-container">
-                <p>Explore various <br></br>options for you <br></br> to pick</p>
-                <div className="variety">
-                    <img src="/chickenwrap.jpg" alt="" />
-                    <img src="/chips.jpg" alt="" />
-                    <img src="/chickenwings.jpg" alt="" />
-                    <img src="/sausage.jpg" alt="" />
+            <div className="home-footer">
+                <div className="footer-content">
+                    <div className="footer-item">
+                        <h3>📍 Location</h3>
+                        <p>Downtown Kitchen Hub</p>
+                    </div>
+                    <div className="footer-item">
+                        <h3>⏰ Hours</h3>
+                        <p>Mon-Sun: 10AM - 10PM</p>
+                    </div>
+                    <div className="footer-item">
+                        <h3>📞 Contact</h3>
+                        <p>+254------</p>
+                    </div>
                 </div>
             </div>
         </div>
