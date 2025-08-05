@@ -9,7 +9,8 @@ function Home() {
             <div className="variety-container">
                 <p>Explore various <br></br>options for you <br></br> to pick</p>
                 <div className="variety">
-                    <img src="/chickenwrap.jpg" alt="" />
+                    <img src="/chickenorders-section
+wrap.jpg" alt="" />
                     <img src="/chips.jpg" alt="" />
                     <img src="/chickenwings.jpg" alt="" />
                     <img src="/sausage.jpg" alt="" />
