@@ -10,7 +10,7 @@ import React from "react";
  * - onRemoveItem: Function to remove item from cart by ID
  * - onPlaceOrder: Function to handle order placement
  */
-function Cart({ cartItems, onRemoveItem, onPlaceOrder }) {
+function Cart({ cartItems = [], onRemoveItem = () => {}, onPlaceOrder = () => {} }) {
   return (
     <div className="cart-container">
       {/* Cart header */}

@@ -1,7 +1,7 @@
 
 import React from "react";
 
-function Checkout({ cartItems, onPlaceOrder }) {
+function Checkout({ cartItems = [], onPlaceOrder = () => {} }) {
   // Calculate total
   const subtotal = cartItems.reduce((acc, item) => acc + item.price * item.quantity, 0);
   const deliveryFee = 150; // static for now

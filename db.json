@@ -1,0 +1,134 @@
+{
+  "menuItems": [
+    {
+      "id": 1,
+      "category": "Chicken",
+      "name": "Mouth Tantalizing Chicken Wings",
+      "description": "Served with fries | 6pc",
+      "price": 650,
+      "image": "chicken_wings.jpg"
+    },
+    {
+      "id": 2,
+      "category": "Chicken",
+      "name": "Duo Wings",
+      "description": "2 Flavours | 12pc",
+      "price": 1250,
+      "image": "duo_wings.jpg"
+    },
+    {
+      "id": 3,
+      "category": "Chicken",
+      "name": "Trio Wings",
+      "description": "3 Flavours | 18pc",
+      "price": 1850,
+      "image": "trio_wings.jpg"
+    },
+    {
+      "id": 4,
+      "category": "Chicken",
+      "name": "Wings Flavours",
+      "description": "BBQ Coated, Bread Crumb, Soy Honey Chilly 🌶️, Hot & Spicy 🌶️, Lemon & Pepper 🌶️",
+      "price": null,
+      "image": "wings_flavours.jpg"
+    },
+    {
+      "id": 5,
+      "category": "Wraps",
+      "name": "Ronikkies Chicken Wrap",
+      "description": "Homemade tortilla, shredded chicken, BBQ/hot sauce, coleslaw, pickled cucumbers",
+      "price": 450,
+      "image": "chicken_wrap.jpg"
+    },
+    {
+      "id": 6,
+      "category": "Wraps",
+      "name": "Big Mac Wrap",
+      "description": "Beef, special sauce, lettuce, caramelized onions, pickled cucumber | Add Fries +100",
+      "price": 450,
+      "image": "big_mac_wrap.jpg"
+    },
+    {
+      "id": 7,
+      "category": "Ribs",
+      "name": "Mvule Beef Ribs",
+      "description": "Off-the-bone ribs served with fries",
+      "price": 850,
+      "image": "beef_ribs.jpg"
+    },
+    {
+      "id": 8,
+      "category": "Ribs",
+      "name": "Rib Sauces",
+      "description": "Caramelized Onions & Coriander, Glazed with BBQ Sauce, Spicy w/ Secret Hot Sauce",
+      "price": null,
+      "image": "rib_sauces.jpg"
+    },
+    {
+      "id": 9,
+      "category": "Burger",
+      "name": "Mvule Smash Burger",
+      "description": "Beef burger w/ slaw & sauce selection",
+      "price": 600,
+      "image": "smash_burger.jpg"
+    },
+    {
+      "id": 10,
+      "category": "Burger",
+      "name": "Burger Sauces",
+      "description": "Honey Mustard, Chilly Mayo, BBQ Sauce, Ketchup, Spicy Mayo, Secret Hot Sauce",
+      "price": null,
+      "image": "burger_sauces.jpg"
+    },
+    {
+      "id": 11,
+      "category": "Fries",
+      "name": "Mvule Combo Fries",
+      "description": "Crinkle fries w/ minced beef/chicken, creamy sauce, BBQ sauce",
+      "price": 650,
+      "image": "combo_fries.jpg"
+    },
+    {
+      "id": 12,
+      "category": "Small Bites",
+      "name": "Beef Samosas",
+      "price": 50,
+      "image": "beef_samosas.jpg"
+    },
+    {
+      "id": 13,
+      "category": "Small Bites",
+      "name": "Chicken Samosas",
+      "price": 60,
+      "image": "chicken_samosas.jpg"
+    },
+    {
+      "id": 14,
+      "category": "Small Bites",
+      "name": "Spicy Beef Sausages",
+      "price": 50,
+      "image": "spicy_beef_sausages.jpg"
+    },
+    {
+      "id": 15,
+      "category": "Small Bites",
+      "name": "Beef Sausages",
+      "price": 50,
+      "image": "beef_sausages.jpg"
+    },
+    {
+      "id": 16,
+      "category": "Small Bites",
+      "name": "Chips",
+      "price": 150,
+      "image": "chips.jpg"
+    },
+    {
+      "id": 17,
+      "category": "Small Bites",
+      "name": "Masala Chips",
+      "price": 200,
+      "image": "masala_chips.jpg"
+    }
+  ]
+}

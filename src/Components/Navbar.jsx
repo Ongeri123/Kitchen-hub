@@ -9,7 +9,7 @@ import { faHome, faUtensils, faShoppingCart, faUser } from '@fortawesome/free-so
 function Navbar() {
     return (
         <nav className="navbar">
-            <div className='logo'>MVULE CATERING</div>
+            <div className='logo'>🍔 MVULE CATERING</div>
             <ul className="nav-links">
                     <li><Link to='/' className='nav-link'><FontAwesomeIcon icon={faHome} /> Home</Link></li>
                     <li><Link to='/menu' className='nav-link'><FontAwesomeIcon icon={faUtensils} /> Menu</Link></li>
